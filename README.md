@@ -1,3 +1,36 @@
+# EcoFlow
+
+## Overview
+**EcoFlow** is a web application designed for waste management and environmental sustainability. It allows users to track waste collection schedules, view statistics, and engage with the community to promote responsible waste disposal. The app aims to optimize waste collection routes and enhance user interaction through gamification features, including token rewards and community challenges.
+
+## Features
+- **User-Friendly Interface**: An interactive and adaptive design with a greenish background that fades into lighter shades.
+- **Token System**: Users can earn and manage tokens through responsible waste disposal actions.
+- **Dashboard**: View waste tracking statistics, user profiles, and collection schedules.
+- **Community Engagement**: Track waste disposal and receive tips for proper waste segregation.
+- **Responsive Design**: The app is designed to be fully functional across various devices.
+- **Animation Effects**: Smooth transitions and hover effects enhance user experience, utilizing libraries like Framer Motion.
+
+## Project Structure
+EcoFlow/
+│
+├── src/
+│   ├── components/
+│   │   ├── Dashboard.js
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   │   ├── TokenDisplay.js
+│   │   ├── UserProfile.js
+│   │   ├── WasteTracking.js
+│   │   └── Statistics.js
+│   │
+│   ├── styles/
+│   │   ├── common.scss
+│   │   ├── Dashboard.scss
+│   │   ├──
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
