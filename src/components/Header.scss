@@ -1,0 +1,43 @@
+/* Header.css */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem; /* Increase font size for the heading */
+    font-weight: bold;
+    color:green;
+    max-width: 80%; /* Adjust the width of the heading */
+    margin: 0 auto; /* Center the heading horizontally */
+    line-height: 1.2; /* Adjust line-height for better spacing */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1em;
+    }
+}
+
+/* Add more media queries for different screen sizes and devices */
+@media (max-width: 320px) {
+    header h1 {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 240px) {
+    header h1 {
+        font-size: 0.6em;
+    }
+}

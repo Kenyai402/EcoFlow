@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import TokenDisplay from './components/TokenDisplay';
+import WasteTracking from './components/WasteTracking';
+import UserProfile from './components/UserProfile';
+import Dashboard from './components/Dashboard';
+import './App.scss'; // Import global styles
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="app">
+            <Header />
+            <main className="main-content">
+                <TokenDisplay />
+                <WasteTracking />
+                <Dashboard />
+                <UserProfile />
+            </main>
+            <Footer />
+        </div>
+    );
+};
 
 export default App;
