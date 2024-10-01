@@ -13,9 +13,12 @@ EcoFlow is an environmental sustainability web application aimed at optimizing w
 - [Contributing](#contributing)
 - [License](#license)
 
+=======
+>>>>>>> 52d5f43808c00de929bae70dcfb1912e7a6f2f11
 
 ## Overview
 **EcoFlow** is a web application designed for waste management and environmental sustainability. It allows users to track waste collection schedules, view statistics, and engage with the community to promote responsible waste disposal. The app aims to optimize waste collection routes and enhance user interaction through gamification features, including token rewards and community challenges.
+
 
 
 ## Features
@@ -25,6 +28,7 @@ EcoFlow is an environmental sustainability web application aimed at optimizing w
 - **Community Engagement**: Track waste disposal and receive tips for proper waste segregation.
 - **Responsive Design**: The app is designed to be fully functional across various devices.
 - **Animation Effects**: Smooth transitions and hover effects enhance user experience, utilizing libraries like Framer Motion.
+
 
 
 ## Project Structure
